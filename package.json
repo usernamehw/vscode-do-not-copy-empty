@@ -4,6 +4,14 @@
     "description": "Prevent copying of empty lines",
     "version": "1.0.0",
     "publisher": "usernamehw",
+    "license": "MIT",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/usernamehw/vscode-do-not-copy-empty"
+    },
+    "bugs": {
+        "url": "https://github.com/usernamehw/vscode-do-not-copy-empty/issues"
+    },
     "engines": {
         "vscode": "^1.20.0"
     },
@@ -11,7 +19,7 @@
         "Other"
     ],
     "activationEvents": [
-        "*"
+        "onCommand:extension.doNotCopyEmpty"
     ],
     "main": "./out/extension",
     "contributes": {
