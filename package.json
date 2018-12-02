@@ -2,7 +2,7 @@
     "name": "do-not-copy-empty",
     "displayName": "DEPRECATED: do-not-copy-empty",
     "description": "Prevent copying of empty lines",
-    "version": "1.0.0",
+    "version": "1.0.1",
     "publisher": "usernamehw",
     "license": "MIT",
     "repository": {
@@ -29,12 +29,14 @@
                 "title": "Do not copy empty"
             }
         ],
-        "keybindings": [{
-            "command": "extension.doNotCopyEmpty",
-            "key": "ctrl+c",
-            "mac": "cmd+c",
-            "when": "!editorHasSelection && editorTextFocus"
-        }]
+        "keybindings": [
+            {
+                "command": "extension.doNotCopyEmpty",
+                "key": "ctrl+c",
+                "mac": "cmd+c",
+                "when": "!editorHasSelection && editorTextFocus"
+            }
+        ]
     },
     "scripts": {
         "vscode:prepublish": "npm run compile",
