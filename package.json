@@ -1,6 +1,6 @@
 {
     "name": "do-not-copy-empty",
-    "displayName": "do-not-copy-empty",
+    "displayName": "DEPRECATED: do-not-copy-empty",
     "description": "Prevent copying of empty lines",
     "version": "1.0.0",
     "publisher": "usernamehw",
