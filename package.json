@@ -2,7 +2,7 @@
     "name": "do-not-copy-empty",
     "displayName": "Do not copy empty",
     "description": "Prevent copying of empty lines",
-    "version": "1.0.1",
+    "version": "1.0.2",
     "publisher": "usernamehw",
     "license": "MIT",
     "repository": {
